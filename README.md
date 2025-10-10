@@ -1,3 +1,4 @@
+[![make](https://github.com/rrmhearts/festival/actions/workflows/make.yml/badge.svg)](https://github.com/rrmhearts/festival/actions/workflows/make.yml)
 
               The Festival Speech Synthesis System
                    version 2.5.1 July 2020
