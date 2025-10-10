@@ -1,10 +1,37 @@
-## festival specific
+# Generated Festival files
+bin/default_voices
+bin/festival
+bin/festival_client
+bin/festival_server
+bin/festival_server_control
+bin/text2wave
+config.log
+config.status
 config/config
 config/modincludes.inc
 config/system.mak
-config.status
+examples/dumpfeats
+examples/durmeanstd
+examples/latest
+examples/make_utts
+examples/powmeanstd
+examples/run-festival-script
+examples/saytime
+examples/scfg_parse_text
+examples/text2pos
+examples/text2utt
+examples/text2wave
+lib/cstr.scm
+lib/etc/unknown_Linux/.made
+lib/fringe.scm
+lib/siod.scm
+lib/web.scm
+src/modules/init_modules.cc
 
-## C/C++ general
+**/.buildlib_Festival
+**/make.depend
+
+# C/C++ gitignore
 ##### Windows
 # Windows thumbnail cache files
 Thumbs.db
