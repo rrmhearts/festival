@@ -31,6 +31,28 @@ src/modules/init_modules.cc
 **/.buildlib_Festival
 **/make.depend
 
+# default_voices
+lib/dicts/COPYING.poslex
+lib/dicts/cmu/COPYING
+lib/dicts/cmu/allowables.scm
+lib/dicts/cmu/cmu2ft
+lib/dicts/cmu/cmu_lts_rules.scm
+lib/dicts/cmu/cmudict-0.4.diff
+lib/dicts/cmu/cmudict-0.4.scm
+lib/dicts/cmu/cmudict_compile.scm
+lib/dicts/cmu/cmudict_extensions.scm
+lib/dicts/cmu/cmulex.scm
+lib/dicts/wsj.wp39.poslexR
+lib/dicts/wsj.wp39.tri.ngrambin
+lib/voices/english/kal_diphone/COPYING
+lib/voices/english/kal_diphone/festvox/kal_diphone.scm
+lib/voices/english/kal_diphone/festvox/kaldurtreeZ.scm
+lib/voices/english/kal_diphone/group/kallpc16k.group
+make.include
+packed/festlex_CMU.tar.gz
+packed/festlex_POSLEX.tar.gz
+packed/festvox_kallpc16k.tar.gz
+
 # C/C++ gitignore
 ##### Windows
 # Windows thumbnail cache files
