@@ -52,17 +52,27 @@ then
 fi
 
 ( cd packed;
-  wget http://www.festvox.org/packed/festival/2.4/voices/festvox_kallpc16k.tar.gz;
-  wget http://www.festvox.org/packed/festival/2.4/festlex_CMU.tar.gz;
-  wget http://www.festvox.org/packed/festival/2.4/festlex_POSLEX.tar.gz
+  wget -nc https://www.cstr.ed.ac.uk/downloads/festival/1.95/festvox_cmu_us_slt_arctic_hts.tar.gz;
+  wget -nc http://www.festvox.org/packed/festival/2.4/voices/festvox_cmu_us_slt_cg.tar.gz
+  wget -nc http://www.festvox.org/packed/festival/2.4/voices/festvox_cmu_us_awb_cg.tar.gz;
+  wget -nc http://www.festvox.org/packed/festival/2.4/voices/festvox_cmu_us_rms_cg.tar.gz;
+  wget -nc http://www.festvox.org/packed/festival/2.4/voices/festvox_kallpc16k.tar.gz;
+  wget -nc http://www.festvox.org/packed/festival/2.4/voices/festvox_rablpc16k.tar.gz
+  wget -nc http://www.festvox.org/packed/festival/2.4/festlex_CMU.tar.gz;
+  wget -nc http://www.festvox.org/packed/festival/2.4/festlex_POSLEX.tar.gz
 )
 
 THISDIR=`pwd`
 
 ( cd ..;
+  tar zxvf $THISDIR/packed/festvox_cmu_us_slt_arctic_hts.tar.gz;
+  tar zxvf $THISDIR/packed/festvox_cmu_us_slt_cg.tar.gz;
+  tar zxvf $THISDIR/packed/festvox_cmu_us_awb_cg.tar.gz;
+  tar zxvf $THISDIR/packed/festvox_cmu_us_rms_cg.tar.gz;
   tar zxvf $THISDIR/packed/festvox_kallpc16k.tar.gz;
   tar zxvf $THISDIR/packed/festlex_CMU.tar.gz;
   tar zxvf $THISDIR/packed/festlex_POSLEX.tar.gz
+  tar zxvf $THISDIR/packed/festvox_rablpc16k.tar.gz
 )
 
 exit 0

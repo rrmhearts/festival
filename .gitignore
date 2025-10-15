@@ -44,14 +44,9 @@ lib/dicts/cmu/cmudict_extensions.scm
 lib/dicts/cmu/cmulex.scm
 lib/dicts/wsj.wp39.poslexR
 lib/dicts/wsj.wp39.tri.ngrambin
-lib/voices/english/kal_diphone/COPYING
-lib/voices/english/kal_diphone/festvox/kal_diphone.scm
-lib/voices/english/kal_diphone/festvox/kaldurtreeZ.scm
-lib/voices/english/kal_diphone/group/kallpc16k.group
+lib/voices/
 make.include
-packed/festlex_CMU.tar.gz
-packed/festlex_POSLEX.tar.gz
-packed/festvox_kallpc16k.tar.gz
+packed/
 
 # C/C++ gitignore
 ##### Windows

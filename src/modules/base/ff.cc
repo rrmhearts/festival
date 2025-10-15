@@ -340,6 +340,9 @@ static EST_Val ff_word_numsyls(EST_Item *s)
     // Number of syllable in word
     EST_Item *nn = as(s,"SylStructure");
 
+    if (daughter1(nn) == 0)
+        return EST_Val(0);
+
     return EST_Val(daughter1(nn)->length());
 }
 
