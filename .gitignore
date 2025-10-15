@@ -1,10 +1,5 @@
 # Generated Festival files
-bin/default_voices
-bin/festival
-bin/festival_client
-bin/festival_server
-bin/festival_server_control
-bin/text2wave
+bin/
 config.log
 config.status
 config/config
