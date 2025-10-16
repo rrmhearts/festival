@@ -82,8 +82,6 @@
   ;; Lexicon selection
   ;;    See http://festvox.org/docs/manual-2.4.0/festival_13.html#Lexicons
   (lex.select "cmu")
-  ;; Add RFTS specific words to cmu lexicon
-  (require 'dicts/cmu/rfts_addenda)
   ;; If user-specific pronunciations are desired, add an addenda file
   ;; to the voice directory and add a (require <file>) statement here.
   ;; (require './cmu_us_aew_arctic_addenda)
